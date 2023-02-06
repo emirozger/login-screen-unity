@@ -25,7 +25,7 @@ public class Login : MonoBehaviour
 
 
             //aşağıda da database de hangi kullanıcı adı ve şifreler varsa onları veya koyup ekleyebilirim. ya da liste yapıp listede verip tutup çekerim.
-            if (email == "kullanici@mail.com" && password == "sifre"||email == "gspointnlank@gmail.com" && password == "05363305979s")
+            if (email == "kullanici@mail.com" && password == "sifre"||email == "kullanici2@mail.com" && password == "sifre2")
             {
                 Debug.Log("Giriş Başarılı");
                 errorText.text = "";
@@ -61,7 +61,7 @@ public class Login : MonoBehaviour
 
 
         //aşağıda database'e eklemek istediğim hesapları veya parametresi kullanarak ya da listede tutup çekerek eklerim.
-        if (email == "kullanici@mail.com" && password == "sifre"||email == "gspointnlank@gmail.com" && password == "05363305979s")
+        if (email == "kullanici@mail.com" && password == "sifre"||email == "kullanici2@mail.com" && password == "sifre2")
         {
             isLoginned = true;
             PlayerPrefs.SetInt("isLoginned", isLoginned ? 1 : 0);
